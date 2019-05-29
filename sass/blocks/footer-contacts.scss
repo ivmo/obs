@@ -1,0 +1,36 @@
+.footer-contacts {
+  margin-bottom: 20px;
+}
+
+.footer-contacts__number {
+  color: $text-black;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+	font-family: 'akrobatblack', verdana, sans-serif;
+
+	&:hover {
+		color: $text-black;
+		text-decoration: none;
+	}
+
+	span {
+		color: $color-primary;
+	}
+}
+
+.footer-contacts__text {
+  padding-top: 3px;
+}
+
+.footer-contacts__link {
+  color: $color-secondary;
+  font-size: 18px;
+  line-height: 1.2em;
+	font-family: 'akrobatbold', verdana, sans-serif;
+	border-bottom: 1px dotted $color-secondary;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}

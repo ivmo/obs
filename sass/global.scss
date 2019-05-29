@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'akrobatblack';
+    src: url('../fonts/Akrobat-Black.woff') format('woff'),
+         url('../fonts/Akrobat-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('../fonts/Akrobat-Bold.woff') format('woff'),
+         url('../fonts/Akrobat-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akrobatsemibold';
+    src: url('../fonts/Akrobat-SemiBold.woff') format('woff'),
+         url('../fonts/Akrobat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akrobatregular';
+    src: url('../fonts/Akrobat-Regular.woff') format('woff'),
+         url('../fonts/Akrobat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  padding-top: 80px;
+  font-size: $font-xs;
+  line-height: 1.2em;
+  font-family: 'akrobatregular', Arial, sans-serif;
+
+  @media #{(max-width: 768px)} {
+    padding-top: 0;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.call-popup {
+  display: none;
+}
+
+.contact-form {
+  position: relative;
+  padding: 20px;
+  padding-top: 30px;
+  background: #f2f5f8;
+  border-radius: 8px;
+}
+
+.contact-form .order-form__phone {
+  margin-bottom: 0;
+}
+
+.box-modal_close {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+  top: 5px;
+	right: 5px;
+  cursor: pointer;
+}
+
+.box-modal_close:before,
+.box-modal_close:after {
+	content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #a7a7a7;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.box-modal_close:after {
+	-webkit-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+}
+
+.this_place {
+    font-size: 1.7rem;
+    padding: 30px 50px 30px 30px;
+    width: 250px;
+    background: url('/img/grnbord.png') repeat-y 100% 100% #fff;
+    line-height: 3rem;
+    box-shadow: 1px 1px 4px #ccc;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.this_place .phone {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.this_place .phone a {
+  color: #000;
+  font-weight: bold;
+}
+
+.this_place .phone a:hover {
+  text-decoration: underline;
+}
+
+.contact-list .item.active {
+    background: #eee;
+}
+
+.active .this_place {
+    display: block;
+    position: absolute;
+    left: 41%;
+    top: 130px;
+}

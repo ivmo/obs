@@ -1,0 +1,31 @@
+.features-item {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 400px;
+	float: none !important;
+	margin-bottom: 30px;
+	font-size: $font-xs;
+}
+
+.features-item__pic {
+	margin-bottom: 10px;
+	font-size: 0;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.features-item__title {
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-family: 'akrobatblack', Arial, sans-serif;
+	text-align: center;
+}
+
+.features-item__text {
+  font-size: 16px;
+	text-align: center;
+
+}

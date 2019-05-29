@@ -1,0 +1,58 @@
+.promo {
+  position: relative;
+  min-height: 400px;
+  background: url('../img/promo-bg.jpg') no-repeat center;
+  background-size: cover;
+
+  @media #{$mobile-width} {
+    height: 300px;
+  }
+}
+
+.promo__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 30px;
+  width: 450px;
+  height: 190px;
+  background: $bg-dark;
+  text-align: center;
+
+  @media #{$mobile-width} {
+    width: 300px;
+  }
+}
+
+.promo .promo__text {
+  display: block;
+  font-size: 32px;
+  line-height: 1.2em;
+  color: $text-white;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    color: $text-white;
+    text-decoration: none;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 50px;
+    height: 30px;
+    background: url('../img/back.png') no-repeat;
+    background-size: contain;
+  }
+
+  b {
+    display: block;
+    margin: auto;
+  }
+}

@@ -1,0 +1,41 @@
+.steps-list {
+	@media #{$tablet-width} {
+		padding-top: 20px;
+	}
+}
+
+.steps-list__item {
+	// width: 110px !important;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+.steps-list__item--reverse  {
+	display: flex;
+	flex-direction: column-reverse;
+
+  @media #{$tablet-width} {
+    display: block;
+  }
+}
+
+.steps-list__text {
+	padding: 25px 0;
+  font-size: 16px;
+  line-height: 1.2em;
+	color: $text-white;
+
+	@media #{$tablet-width} {
+		padding-bottom: 0;
+	}
+}
+
+.steps-list__pic {
+	text-align: center;
+
+	img {
+		max-width: 120px;
+		margin: auto;
+	}
+}

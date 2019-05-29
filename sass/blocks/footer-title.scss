@@ -1,0 +1,13 @@
+.footer-title {
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 15px;
+	color: $color-secondary;
+  font-size: 18px;
+  line-height: 1.2em;
+	font-family: 'akrobatbold',verdana,sans-serif;
+
+	span {
+		border-bottom: 1px dotted $color-secondary;
+	}
+}

@@ -1,0 +1,14 @@
+.copy {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 1.2em;
+
+  a {
+    text-transform: uppercase;
+    color: $text-black;
+
+    &:hover {
+      color: $text-black;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.steps {
+	background: $color-primary;
+  background-size: cover;
+}
+
+.steps__wrapper {
+  background: $color-primary url("../img/line.svg");
+  background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0 20%;
+	margin-bottom: 20px;
+
+	@media #{(max-width: 767px)} {
+    background: none;
+	}
+}
